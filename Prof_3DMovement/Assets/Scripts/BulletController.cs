@@ -15,14 +15,4 @@ public class BulletController : MonoBehaviour
     {
         
     }
-
-     private void OnCollisionEnter(Collision collision)
-    {
-        GameObject otherGO = collision.gameObject;
-        if(otherGO.name == "Enemy") {
-            Destroy(otherGO);
-        }
-        //Do Stuff
-        //Destroy(gameObject); // destroy this gameobject
-    }
 }

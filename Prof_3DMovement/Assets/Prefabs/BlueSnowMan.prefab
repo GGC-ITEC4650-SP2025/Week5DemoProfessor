@@ -118,7 +118,7 @@ GameObject:
   - component: {fileID: 6479361177635772348}
   m_Layer: 0
   m_Name: BlueSnowMan
-  m_TagString: Untagged
+  m_TagString: BlueBullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

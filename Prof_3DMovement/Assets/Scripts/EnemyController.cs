@@ -29,4 +29,13 @@ public class EnemyController : MonoBehaviour
         myAgent.SetDestination(playerTran.position);
 
     }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        GameObject otherGO = collision.gameObject;
+        if(otherGO.tag == "BlueBullet") {
+            Destroy(gameObject);
+        }
+    }
+
 }
