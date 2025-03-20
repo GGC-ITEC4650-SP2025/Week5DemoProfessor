@@ -16,7 +16,7 @@ public class Oscillator : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         //move based on distance and reverse directions        
         if(distLeft > 0) {
